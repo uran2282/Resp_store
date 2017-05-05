@@ -1,0 +1,561 @@
+﻿
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <title>STORE</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="css/flickity.css" rel="stylesheet">
+    <script src="js/flickity.pkgd.js"></script>
+    <script src="js/custom.js"></script>
+    
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+<header class="inner_header">
+
+  <div class="top_menu main_p_top_menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-8 logo_bl">
+        <div class="navbar-toggle">  
+        </div>
+           <img class="mob_logo" src="img/mob_logo.png">
+          <img class="logo" src="img/logo.png">
+         <div>ПРОИЗВОДСТВО<br>И ДОСТАВКА БЕТОНА</div> 
+        </div>
+        <div class="col-md-1 col-sm-1 col-xs-2  search_icon">
+          <img class="search_img"  src="img/search_icon.png" data-toggle="modal" data-target="#myModal_search">
+          <a class="mob_calc_icon" href=""> <img src="img/calc_icon_mob.png"></a>
+        </div>
+        <div class="col-md-2 col-sm-1 col-xs-2  price_bl">
+          <img src="img/price_icon.png">
+          <div>Скачать<br> прайс</div>   
+        </div>
+        <div class="col-md-2 col-sm-1 col-xs-2  calc_bl">
+          <img class="calc_img" src="img/calc_icon.png">
+         <a class="mob_serch_icon" href="#"> <img src="img/search_icon_mob.png"></a>
+          <div>Калькулятор
+          расчета бетона</div>
+        </div>
+        <div class="col-md-3 col-sm-5 col-xs-5 top_tel">
+          <div class="">+7 (342) 201-95-95</div>
+          <a href="#" data-toggle="modal" data-target="#myModal" >обратный звонок</a>
+        </div>
+      </div>
+    </div>
+    <div class="mobile_search">
+      <div class="container">
+        <input type="" name="">
+        <span class="close_search"></span>
+      </div>
+    </div>
+  </div>
+
+<div class="mobile_menu">
+       <a class="close_menu" href="javascript:void(0);"><img src="img/close_menu_icon.png"></a> 
+        <ul>
+          <li>Бетон</li>
+          <li class="mob_menu_left_padd">Инертные материалы</li>
+          <li class="mob_menu_left_padd">Услуги спецтехники</li>
+          <li class="mob_menu_left_padd">Промышленные полы</li>
+          <li>Галерея</li>
+          <li class="mob_menu_left_padd">Документация</li>
+          <li>О нас</li>
+          <li class="mob_menu_left_padd">Контакты</li>
+
+        </ul>
+        <div class="menu_tel">
+           <div class="">+7 (342) 201-95-95</div>
+          <a href="#"  data-toggle="modal" data-target="#myModal">обратный звонок</a>
+        </div>
+      </div>  
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+     <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="modal_title">Обратный звонок</div>
+        <div class="modal_text">Оставьте свои контактные данные
+       и мы свяжемся с вами</div>
+      <input type="text" class="form-control" id="usr" placeholder="Василий">
+      <input type="text" class="form-control" id="usr" placeholder="+7 909 800 60 70">
+      <button>Отправить</button>
+  </div>
+</div>
+
+</div>
+</div>
+<!-- SEARCH -->
+<div class="search_modal_win">
+
+  <div id="myModal_search" class="modal fade" role="dialog">
+  <button type="button" class="close" data-dismiss="modal"></button>
+    <div class="modal-dialog">
+      <!-- Modal content-->
+       <div class="modal-content">
+        <div class="modal-header">
+          
+          <input type="" name="" placeholder="Type to search...">
+        </div>  
+   </div>
+    </div>
+  </div>
+</div>
+   <!--   MENU -->
+   <div class="menu">
+      <div class="container">
+        <ul>
+          <li class="dropdown">
+            <a href="#">Бетон</a>
+             <ul class="dropdown-menu">
+             <span class="green_line"></span>
+                <li><a href="#">Бетон на гравии</a></li>
+                <li><a href="#">Бетон на щебне</a></li>
+                <li><a href="#">Мелкозернистый бетон</a></li>
+                <li><a href="#">Строительный Раствор</a></li>
+                <li><a href="#">Прайс на бетон и раствор</a></li>
+                <li><a href="#">Доставка бетона</a></li>
+                <li><a href="#">Правила приемки</a></li>
+                <li><a href="#">Марки бетона</a></li>
+                <li><a href="#">Лаборатория</a></li>
+              </ul>
+          </li>
+          <li class="dropdown">
+          <a href="">Инертные материалы</a>
+                       <ul class="dropdown-menu">
+             <span class="green_line"></span>
+                <li><a href="#">ПГС</a></li>
+                <li><a href="#">Песок</a></li>
+                <li><a href="#">Щебень</a></li>
+                <li><a href="#">Прайс на инертные материалы</a></li>
+              </ul>
+          </li>
+           <li class="dropdown">
+          <a href="">Услуги спецтехники</a>
+              <ul class="dropdown-menu">
+             <span class="green_line"></span>
+                <li><a href="#">Автокраны</a></li>
+                <li><a href="#">Автобетоносмесители</a></li>
+                <li><a href="#">Бетононасосы</a></li>
+                <li><a href="#">Глубинные вибраторы</a></li>
+                <li><a href="#">Прайс на услуги спецтехники</a></li>
+              </ul>
+          </li>
+          <li class="hover_line"><a href="">Промышленные полы</a></li>
+          <li class="hover_line"><a href="">Галерея</a></li>
+          <li class="hover_line"><a href="">Документация</a></li>
+          <li class="hover_line"><a href="">О нас</a></li>
+          <li class="hover_line"><a href="">Контакты</a></li>
+        </ul>
+      </div>
+   </div>
+   <!-- //MENU -->
+</header>
+<section class="main_section">
+  <div class="container">
+    <div class="col-md-12 breadcrumbs pos_rel">
+      <ul>
+        <li> <a href=""> Главная</a> </li>
+        <li>Бетон</li>
+      </ul>
+    </div>
+    
+    <div class="col-md-9 col-md-push-3   main_content">
+      <div class="row">
+        <div class="col-md-12 page_title">
+           <h1>Бетон</h1>
+        </div>
+     
+        <div class="col-md-4 col-sm-6 store_item">
+        <a href="">
+          <div class="store_item_img"></div>
+          <div class="store_item_info">
+            <div class="store_item_title">
+              Бетон на гравии (фр. 5-20) ГОСТ 7473-2010
+            </div>
+            <div class="store_item_price"> 
+              2300,00 руб.
+            </div>
+            </a>
+          </div>  
+        </div>
+         <div class="col-md-4 col-sm-6 store_item">
+         <a href="">
+          <div class="store_item_img"></div>
+          <div class="store_item_info">
+            <div class="store_item_title">
+              Бетон на гравии (фр. 5-20) ГОСТ 7473-2010
+            </div>
+            <div class="store_item_price"> 
+              2300,00 руб.
+            </div>
+          </div>  
+          </a>
+        </div>
+         <div class="col-md-4 col-sm-6  store_item">
+          <a href="">
+          <div class="store_item_img"></div>
+          <div class="store_item_info">
+            <div class="store_item_title">
+              Бетон на гравии (фр. 5-20) ГОСТ 7473-2010
+            </div>
+            <div class="store_item_price"> 
+              2300,00 руб.
+            </div>
+          </div> 
+        </a> 
+        </div>
+         <div class="col-md-4 col-sm-6  store_item">
+         <a href="">
+            <div class="store_item_img"></div>
+              <div class="store_item_info">
+                <div class="store_item_title">
+                 Бетон на гравии (фр. 5-20) ГОСТ 7473-2010
+                </div>
+                <div class="store_item_price"> 
+                 2300,00 руб.
+                </div>
+              </div>  
+              </a>
+          </div>
+
+           <div class="col-md-4 col-sm-6   ">
+            <a class='price_link_a' href="">
+               <div class="price_link">
+                <img src="img/large_price_icon.png">
+                <div>Смотреть весь прайс на бетон и раствор</div>
+              </div>
+             </a>  
+          </div>
+          <div class="col-md-4 col-sm-6 mob_link_bl">
+            <ul class="plate_link_block">
+              <li><a href=""> Доставка бетона</a></li>
+              <li><a href="">Правила приемки</a></li>
+              <li><a href="">Марки бетона</a></li>
+              <li><a href="">Лаборатория</a></li>
+            </ul>
+          </div>
+         
+      </div>
+<div class="text_block">
+  <h2 class="section_title">Бетон в Перми</h2>
+  <p>Ввиду того, что мы занимаемся производством товарного бетона с использованием современного импортного полностью автоматизированного бетонного завода производительностью 60м3. в час, наши заказчики получают смесь высокого качества, готовую к проведению строительных работ. Она транспортируется прямо к стройплощадке без потери свойств во время транспортировки. Такой подход к изготовлению и доставке продукции избавляет заказчика от необходимости:</p>
+  <ul>
+    <li>изучения состава смеси и самостоятельного ее приготовления;</li>
+    <li>покупки и обслуживания дорогостоящей спецтехники для доставки материалов и их обработки;</li>
+    <li>доставки бетонной смеси и подачи бетононасосом;</li>
+    <li>найма дополнительных рабочих.</li>
+  </ul>
+  <p>При этом продажа бетона в Перми осуществляется по выгодным ценам, на которых не отражается стоимость приготовления конечной смеси и ее транспортировки.</p>
+</div>
+<h2 class="text_link" >Преимущества нашей компании по производству бетона</h2>
+<ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#order">Сделать заказ</a></li>
+    <li><a data-toggle="tab" href="#delivery">Доставка</a></li>
+    <li><a data-toggle="tab" href="#pay">Оплата</a></li>
+</ul>
+  <div class="tab-content">
+    <div id="order" class="tab-pane fade in active">
+     <div class="order_tab_title">Сделать заказ вы можете тремя удобными способами:</div>
+     <div class="order_info_tab">1. Связавшись по телефону +7(342) 201-95-95 с нашим менеджером.</div>
+     <div class="order_info_tab">2. Отправить заявку на электронную почту info@betonkomplekt59.ru</div>
+     <div class="order_info_tab">3. Заполнить форму ниже.</div>
+     <div class="row">
+     <div class="col-md-5">
+      <div class="order_form_tab">
+        <input type="text" class="form-control" id="usr" placeholder="Ваше имя...">
+        <input type="text" class="form-control" id="usr" placeholder="Телефон">
+        <textarea class="form-control" rows="3" id="comment" placeholder="Марка бетона"></textarea>
+        <button>Отправить</button>
+      </div>
+     </div>
+     </div>
+    </div>
+    <div id="delivery" class="tab-pane fade">
+      <p>У нас имеется собственный автопарк, а это значит, что доставка бетона будет организована индивидуально для вас, независимо от объема заказа.</p>
+      <p>Обширный парк автобетоносмесителей (АБС) включает в себя:</p>
+      <div class="tab_number">
+      <div class="green_t">3 <span>м<sup>3</sup></span></div>
+       <div class="number_text" > Для небольших<br>объемов</div>
+      </div>
+       <div class="tab_number">
+         <div class="green_t">6/8/9 <span>м<sup>3</sup></span></div>
+         <div class="number_text" >Стандартные объемы<br> заказа АБС</div>
+       </div>
+       <div class="clear"></div>
+       <div class="tab_foot_text">Также вы можете заказать <a href="">АБС повышенной проходимости</a>  и <a href=""> услуги автобетононасоса</a></div>
+    </div>
+    <div id="pay" class="tab-pane fade">
+      <p>У нас имеется собственный автопарк, а это значит, что доставка бетона будет организована индивидуально для вас, независимо от объема заказа.
+      Обширный парк автобетоносмесителей (АБС) включает в себя:</p>
+    </div>
+  </div>
+  <div class="row links_block">
+    <div class="col-md-6 links_col">
+ 
+     
+   
+     <a href="#"> <img src="img/delivery_icon.png">Рассчитать стоимость доставки</a>
+    </div>
+    <div class="col-md-6 links_col">
+    
+     
+      
+      <a href="#"> <img src="img/download_icon.png">Скачать прайс</a>
+    </div>
+  </div>
+  <div class="center_title_lg text-center">Мы предлагаем</div>
+  <div class="row">
+    <div class="col-md-3 m_none">
+      <div class="lg_icon_1">
+        Сертифицированная продукция
+      </div>
+    </div>
+    <div class="col-md-3 m_none">
+      <div class="lg_icon_2">
+        Скидки при заказе больших партий
+      </div>
+    </div>
+    <div class="col-md-3 m_none">
+      <div class="lg_icon_3">
+        Мы производитель бетона, поэтому наши цены без накрутки
+      </div>
+    </div>
+    <div class="col-md-3 m_none">
+      <div class="lg_icon_4">
+        Выгодная доставка за минимальные сроки
+      </div>
+    </div>
+  </div>
+  <div class="row">
+   <div class="col-md-12 tags">
+    <div class="tags_title">Смотрите также</div>
+    <div>
+      <a href="">Весь прайс лист на бетон</a>
+      <a href="">Аренда глубинного вибратора</a>
+      <a href="">Доставка бетона</a>
+      <a href="">Бетононасос автомобильный</a> 
+    </div>
+   </div>
+  </div>
+  </div>
+  <div class="col-md-3 col-md-pull-9 right_side_bar">
+      <div class="right_menu_wrap">
+          <div class="right_menu">
+          <div class="rigth_menu_title">
+            Бетон
+          </div>
+              <ul>
+                <li><a href="">Бетон на гравии</a></li>
+                <li><a href="">Бетон на щебне</a></li>
+                <li><a href="">Мелкозернистый бетон</a></li>
+                <li><a href="">Строительный Раствор</a></li>
+              </ul>
+              <hr>
+                <ul>
+                <li><a href="">Прайс на бетон и раствор</a></li>
+                <li><a href="">Доставка бетона</a></li>
+                <li><a href="">Правила приемки</a></li>
+                <li><a href="">Марки бетона</a></li>
+                <li><a href="">Лаборатория</a></li>
+
+              </ul>
+          </div>
+          <div class="rigth_news">
+            <div class="rigth_news_title">
+              Новости и акции
+            </div>
+            <div class="right_news_item">
+              <div class="short_news_text">
+              <a href="">Добровольная сертификация прошла успешно!</a>
+              </div>
+              <span class="right_news_date">
+                25.07.2016
+              </span>
+            </div>
+            <div class="right_news_item">
+              <div class="short_news_text">
+                 <a href="">«бетонкомплект» принимает участие в строительстве нового терминала </a>
+              </div>
+              <span class="right_news_date">
+                25.07.2016
+              </span>
+            </div>
+            <div class="right_news_item">
+              <div class="short_news_text">
+               <a href="">Самый большой автобетононасос в Перми</a>
+              </div>
+              <span class="right_news_date">
+                25.07.2016
+              </span>
+            </div>
+          </div>
+          <div class="right_slider">
+            <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel1" data-slide-to="1"></li>
+          
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+
+                  Закажите доставку через калькулятор расчета бетона и получите скидку!
+                </div>
+                <div class="item">
+                  Закажите доставку через калькулятор расчета бетона и получите скидку!
+                </div>
+                <div class="item">
+                 Закажите доставку через калькулятор расчета бетона и получите скидку!
+                </div>
+                <div class="item">
+                 Закажите доставку через калькулятор расчета бетона и получите скидку!
+                </div>
+              </div>
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+              </a>
+            </div>
+             </div>
+            <div class="rigth_objects_slider">
+              <div class="rigth_slider_title">Обьекты </div>
+                <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel2" data-slide-to="1"></li>
+                <li data-target="#myCarousel2" data-slide-to="2"></li>
+                <li data-target="#myCarousel2" data-slide-to="3"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="img/right_slider_2.png">
+                  <div class="carousel-caption">
+                  Современный университетский кампус в Перми. Комплекс ПНИПУ
+                </div>
+                </div>
+                <div class="item">
+                <img src="img/right_slider_2.png">
+                <div class="carousel-caption">
+                 Современный университетский кампус в Перми. Комплекс ПНИПУ
+                </div>
+                </div>
+                <div class="item">
+                <img src="img/right_slider_2.png">
+                 <div class="carousel-caption">
+                  Современный университетский кампус в Перми. Комплекс ПНИПУ
+                </div>
+                </div>
+                <div class="item">
+                <img src="img/right_slider_2.png">
+                 <div class="carousel-caption">
+                  Современный университетский кампус в Перми. Комплекс ПНИПУ
+                </div>
+                </div>
+              </div>
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+              </a>
+            
+            </div>
+          </div>
+      </div>
+    </div>
+</div>
+</section>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 sm_foot_menu">
+        <ul>
+          <li><a href="#">Бетон</a></li>
+          <li><a href="#">Инертные материалы</a></li>
+          <li><a href="#">Услуги спецтехники</a></li>
+          <li><a href="#">Промышленные полы</a></li>
+          <li><a href="#">Галерея</a></li>
+          <li><a href="#">О нас</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 sm_n">
+        <ul>
+          <li><a href="#">Документация</a></li>
+          <li><a href="#">Прайс лист на бетон</a></li>
+          <li><a href="#">Прайс лист на спецтехику</a></li>
+          <li><a href="#">Прайс лист на инертные</a></li>
+          <li><a href="#">Сертификаты лабаратории</a></li>
+          <li><a href="#">ГОСТы по бетону</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 sm_n">
+        <ul>
+          <li><a href="">Полезные ссылки</a></li>
+          <li><a href="">Скачать прайс</a></li>
+          <li><a href="">Калькулятор расчета бетона</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 sm_foot_menu">
+        <div class="contacts_title">Контакты</div> 
+        <div class="contacts_white">Пермь, Деревообделочная, 8</div>
+        <div class="contacts_mail">info@betonkomplekt59.ru</div>
+        <div class="contacts_number">+7 (342) 201-95-95</div>
+        <a class="contacts_link" href="">обратный звонок</a>
+        
+      </div>
+    </div>
+  </div>
+  <div class="copyrigth text-center">2016 Бетонкомплект</div>
+</footer>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+   $('.carousel_2').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true,
+  watchCSS: true 
+});
+  $('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  setGallerySize: false,
+  contain: true
+}); 
+  
+ 
+</script>
+  </body>
+</html>
